@@ -1,0 +1,69 @@
+/* importing font from google fonts website */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* giving basic properties and resets to the body of the website */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #c6f8f8;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+
+/* contact wrapper centered and build displeyed in flexbox */
+
+.contact__wrapper {
+  margin: 150px auto;
+  max-width: 500px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.142);
+  background-color: white;
+}
+
+/* center section title  with color background*/
+
+.section__title {
+  width: 100%;
+  background-color: #172a3a;
+  padding: 15px;
+  margin-bottom: 40px;
+  border-radius: 15px 15px 0 0;
+}
+
+.section__title h1 {
+  text-align: center;
+  color: #fff;
+}
+/* basic stytling for div elements where our data on click is stored */
+
+.name__wrapper,
+.number__wrapper {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/* styling of main button */
+
+.btn {
+  margin-top: 20px;
+  background-color: #03634e;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  max-width: 350px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
