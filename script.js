@@ -39,9 +39,33 @@ let contactFive = {
 };
 
 let contactSix = {
-  firstName: "Mat",
-  lastName: "Jonson",
-  mobilePhone: "600 450 750",
+  firstName: "Melanie",
+  lastName: "Kunta",
+  mobilePhone: "932 442 889",
+};
+
+let contactSeven = {
+  firstName: "Kate",
+  lastName: "Strong",
+  mobilePhone: "512 434 444",
+};
+
+let contactEight = {
+  firstName: "Alex",
+  lastName: "Smith",
+  mobilePhone: "620 890 220",
+};
+
+let contactNine = {
+  firstName: "Jackie",
+  lastName: "Brown",
+  mobilePhone: "612 443 734",
+};
+
+let contactTen = {
+  firstName: "Mark",
+  lastName: "Lint",
+  mobilePhone: "612 320 742",
 };
 
 // next we will create an array that stores all our contact list inside
@@ -49,9 +73,14 @@ let contactSix = {
 let contactList = [
   contactOne,
   contactTwo,
+  contactThree,
   contactFour,
   contactFive,
   contactSix,
+  contactSeven,
+  contactEight,
+  contactNine,
+  contactTen,
 ];
 
 // now we will add event listener that on click calls our function
