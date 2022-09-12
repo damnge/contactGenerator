@@ -1,4 +1,4 @@
-// first lets acess each indivudal element from html that i need to manipulate the DOM on click event
+// first lets acess each individual element from html that i need to manipulate the DOM on click event
 
 const nameEl = document.getElementById("contactName");
 const numberEl = document.getElementById("contactNumber");
@@ -72,6 +72,6 @@ pickButton.addEventListener("click", function () {
   // if it works we can move further with Template strings we can acess all needed details and wiht innerHTML we can display them in our html element
   nameEl.innerHTML = `Call ${contactList[randomNumber].firstName} ${contactList[randomNumber].lastName}`;
 
-  // we will do exactly the same with the number
+  //we will do exactly the same with the number to display it underneath the name in our html
   numberEl.innerHTML = contactList[randomNumber].mobilePhone;
 });
