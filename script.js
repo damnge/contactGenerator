@@ -3,7 +3,6 @@
 const nameEl = document.getElementById("contactName");
 const numberEl = document.getElementById("contactNumber");
 const pickButton = document.getElementById("contactButton");
-const deleteButton = document.getElementById("deleteButton");
 
 // then lets create few different objects for our random contact list
 // each object will have a first and last name and the mobile number
