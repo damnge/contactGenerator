@@ -10,7 +10,6 @@ Description step by step explaining the code is in script.js but I will add it a
 const nameEl = document.getElementById("contactName");
 const numberEl = document.getElementById("contactNumber");
 const pickButton = document.getElementById("contactButton");
-const deleteButton = document.getElementById("deleteButton");
 
 // then lets create few different objects for our random contact list
 // each object will have a first and last name and the mobile number
